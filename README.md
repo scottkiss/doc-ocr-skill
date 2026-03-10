@@ -17,7 +17,13 @@ A powerful, single-binary CLI tool for Optical Character Recognition (OCR) on sc
 
 ## 🚀 Quick Start
 
-### Installation
+### Quick Install (Single Command)
+
+```bash
+npx skills add scottkiss/doc-ocr-skill
+```
+
+### Installation (Binary)
 
 Use our convenient install script to download the latest pre-compiled binary for your system:
 
