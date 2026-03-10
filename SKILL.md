@@ -1,5 +1,5 @@
 ---
-name: doc-ocr-skill
+name: doc-ocr-skills
 description: OCR documents (PDFs and images) using Gemini 2.5 Flash, PaddleOCR (local), or RapidOCR (local).
 ---
 
@@ -78,7 +78,7 @@ Options:
 We provide pre-compiled binaries to get you started quickly.
 
 ```bash
-cd doc-ocr-skill/scripts
+cd doc-ocr-skills/scripts
 ./install.sh
 ```
 This script will detect your OS (`darwin`/`linux`) and architecture (`amd64`/`arm64`) and download the appropriate version of `docr`.
@@ -88,7 +88,7 @@ This script will detect your OS (`darwin`/`linux`) and architecture (`amd64`/`ar
 If you prefer to build from source, ensure you have **Go 1.21+** installed:
 
 ```bash
-cd doc-ocr-skill/scripts/docr
+cd doc-ocr-skills/scripts/docr
 go build -o docr .
 ```
 

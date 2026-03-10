@@ -20,7 +20,7 @@
 ### 一键安装
 
 ```bash
-npx skills add scottkiss/doc-ocr-skill
+npx skills add scottkiss/doc-ocr-skills
 ```
 
 ### 手动安装 (二进制)
@@ -28,7 +28,7 @@ npx skills add scottkiss/doc-ocr-skill
 使用我们的安装脚本下载适用于您系统的最新预编译二进制文件：
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/scottkiss/doc-ocr-skill/main/scripts/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/scottkiss/doc-ocr-skills/main/scripts/install.sh | bash
 ```
 
 *注意：脚本会将 `docr` 二进制文件安装到运行目录下的 `docr` 文件夹中。建议将其添加到 PATH 以便全局访问。*
@@ -38,8 +38,8 @@ curl -sSL https://raw.githubusercontent.com/scottkiss/doc-ocr-skill/main/scripts
 如果您安装了 Go 1.21+：
 
 ```bash
-git clone https://github.com/scottkiss/doc-ocr-skill.git
-cd doc-ocr-skill/scripts/docr
+git clone https://github.com/scottkiss/doc-ocr-skills.git
+cd doc-ocr-skills/scripts/docr
 go build -o docr .
 ```
 

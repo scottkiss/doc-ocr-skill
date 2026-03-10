@@ -20,7 +20,7 @@ A powerful, single-binary CLI tool for Optical Character Recognition (OCR) on sc
 ### Quick Install (Single Command)
 
 ```bash
-npx skills add scottkiss/doc-ocr-skill
+npx skills add scottkiss/doc-ocr-skills
 ```
 
 ### Installation (Binary)
@@ -28,7 +28,7 @@ npx skills add scottkiss/doc-ocr-skill
 Use our convenient install script to download the latest pre-compiled binary for your system:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/scottkiss/doc-ocr-skill/main/scripts/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/scottkiss/doc-ocr-skills/main/scripts/install.sh | bash
 ```
 
 *Note: The script installs the `docr` binary into a `docr` directory relative to where it's run. Add it to your PATH for global access.*
@@ -38,8 +38,8 @@ curl -sSL https://raw.githubusercontent.com/scottkiss/doc-ocr-skill/main/scripts
 If you have Go 1.21+ installed:
 
 ```bash
-git clone https://github.com/scottkiss/doc-ocr-skill.git
-cd doc-ocr-skill/scripts/docr
+git clone https://github.com/scottkiss/doc-ocr-skills.git
+cd doc-ocr-skills/scripts/docr
 go build -o docr .
 ```
 
