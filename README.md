@@ -3,6 +3,8 @@
 [![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat&logo=go)](https://golang.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+[中文版](./README_CN.md)
+
 A powerful, single-binary CLI tool for Optical Character Recognition (OCR) on scanned PDFs and images. It supports multiple engines including **Gemini 2.5 Flash**, **PaddleOCR**, and **RapidOCR**.
 
 ## ✨ Features
